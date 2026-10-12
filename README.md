@@ -117,4 +117,4 @@ The project covers the main stages of the machine learning pipeline, from data p
 - [Pavly Wageh](https://www.linkedin.com/in/pavly-w-4841b5337?utm_source=share_via&utm_content=profile&utm_medium=member_android)
 - [Peter Ehap](https://www.linkedin.com/in/peter-ehab-2419282a9?utm_source=share_via&utm_content=profile&utm_medium=member_android)
 - [Amira Hany]()
-- [Youstina Khalil]()
+- [Youstina Khalil](https://www.linkedin.com/in/youstina-khalil-7a7b17255?utm_source=share_via&utm_content=profile&utm_medium=member_android)
