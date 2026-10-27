@@ -24,18 +24,16 @@ Youstina Khalil<br>
 <h1>Project Overview</h1>
 
 <p>
-The <strong>Machine Learning</strong> project is a practical machine learning initiative focused on transforming raw data into meaningful predictions and insights. 
-The project covers the main stages of the machine learning pipeline, from data preprocessing and exploratory analysis to model building, evaluation, and optimization.
+This project is a smart surveillance system that detects critical events in real time using computer vision and deep learning. It includes three modules: fire detection, violence detection, and edge-fall detection.
 </p>
 
-<ul>
-  <li> <strong>Data Preprocessing</strong></li>
-  <li> <strong>Exploratory Data Analysis</strong></li>
-  <li> <strong>Feature Engineering</strong></li>
-  <li> <strong>Machine Learning Models</strong></li>
-  <li> <strong>Model Evaluation</strong></li>
-  <li> <strong>Model Optimization</strong></li>
-</ul>
+<p>
+The fire and violence modules identify dangerous situations using object and action detection models. The edge-fall module uses person detection, object tracking, and a virtual boundary placed along a physical edge in the camera view. It tracks each person’s feet and analyzes their movement near the boundary. If a person crosses the boundary and leaves the expected area or moves downward suddenly, the system generates a professional edge-fall alert.
+</p>
+
+<p>
+Together, these modules provide an intelligent solution for detecting potential hazards and emergencies.
+</p>
 
 ---
 
@@ -64,15 +62,21 @@ The project covers the main stages of the machine learning pipeline, from data p
 
 ---
 
-<h1>Methodology</h1>
+Methodology
 
 <ul style="font-size:18px; line-height:1.8;">
-  <li><strong>Data Preprocessing</strong> → Handled missing values, duplicates, categorical variables, and data types</li>
-  <li><strong>Exploratory Data Analysis</strong> → Analyzed the data and identified patterns and relationships</li>
-  <li><strong>Feature Engineering</strong> → Selected, transformed, and prepared features for machine learning</li>
-  <li><strong>Model Building</strong> → Applied different supervised and unsupervised machine learning algorithms</li>
-  <li><strong>Model Evaluation</strong> → Evaluated models using appropriate performance metrics</li>
-  <li><strong>Model Optimization</strong> → Improved model performance through hyperparameter tuning and experimentation</li>
+  <li><strong>1. Data Collection</strong> → Collected and organized image and video datasets for fire detection, violence detection, and edge-fall detection.</li>
+  <li><strong>2. Data Cleaning and Annotation</strong> → Removed corrupted or irrelevant samples, checked annotation quality, and prepared labels according to each detection task.</li>
+  <li><strong>3. Data Preprocessing</strong> → Resized images, normalized pixel values when required, converted data into the appropriate format, and prepared video frames for model input.</li>
+  <li><strong>4. Data Augmentation</strong> → Applied suitable transformations, such as flipping, rotation, cropping, and brightness adjustments, to improve robustness and reduce overfitting where appropriate.</li>
+  <li><strong>5. Dataset Splitting</strong> → Divided the data into training, validation, and test sets while preventing data leakage, especially between frames from the same video.</li>
+  <li><strong>6. Model Development</strong> → Developed and configured computer vision models for fire detection and violence detection, along with person detection and object tracking for edge-fall detection.</li>
+  <li><strong>7. Training and Validation</strong> → Trained the applicable models and monitored validation performance to select suitable configurations and identify overfitting.</li>
+  <li><strong>8. Model Evaluation</strong> → Evaluated detection performance using appropriate metrics, including precision, recall, F1-score, and mAP where applicable, along with false alarm analysis.</li>
+  <li><strong>9. Tracking and Event Logic</strong> → Integrated person tracking and virtual boundary analysis to detect potentially dangerous movements near edges and trigger alerts based on defined conditions.</li>
+  <li><strong>10. System Integration</strong> → Integrated the detection models, tracking logic, event processing, and alert generation into a unified surveillance pipeline.</li>
+  <li><strong>11. Testing and Optimization</strong> → Tested the system on different scenarios and video conditions, and optimized inference speed, resource usage, and detection reliability.</li>
+  <li><strong>12. MLOps and Production Deployment</strong> → Applied MLOps practices to manage model versioning, experiment tracking, reproducible training pipelines, model evaluation, and deployment workflows. Planned automated testing, model monitoring, performance tracking, data and model drift detection, and continuous integration and delivery (CI/CD) to support reliable production deployment and ongoing model maintenance.</li>
 </ul>
 
 ---
