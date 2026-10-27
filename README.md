@@ -6,7 +6,7 @@
   />
 </p>
 
-<h1>Machine Learning Team Members</h1>
+<h1>7ares AI Team</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&color=007ACC&center=true&vCenter=true&width=700&lines=Building+Intelligent+AI+Systems;Exploring+Computer+Vision+and+Deep+Learning;Developing+AI+Powered+Surveillance+Systems;Turning+Data+into+Intelligent+Solutions;From+Machine+Learning+to+Real+World+AI" />
